@@ -19,3 +19,16 @@ This project is a simple website for managing a student database. It allows user
 - MongoDB
 
 ## Images
+
+<img src = "https://github.com/Rohan-J123/StudentDB/assets/139244765/bf569752-f853-4bf0-bb5e-fa6ae9e56a22">
+
+<img src = "https://github.com/Rohan-J123/StudentDB/assets/139244765/ad313edf-d2a0-47d9-8237-f3d414db950e">
+
+<img src = "https://github.com/Rohan-J123/StudentDB/assets/139244765/dd41019a-0ae5-46fe-b706-1b2e6f2f552b">
+
+<img src = "https://github.com/Rohan-J123/StudentDB/assets/139244765/e19c43c8-e376-4ecc-b1b5-20775bbc5910">
+
+<img src = "https://github.com/Rohan-J123/StudentDB/assets/139244765/8586767c-ac9c-4376-b64b-1e0d6b135cf3">
+
+
+
