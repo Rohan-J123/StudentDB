@@ -31,8 +31,10 @@ app.get('/', async (req, res)=>{
 app.post('/save', async (req, res)=>{
     const {rollNo, name, degree, city} = req.body
     const students = new Student({rollNo, name, degree, city})
-    await students.save()
-    res.redirect('/')
+    if(rollNo != ''){
+        await students.save()
+        res.redirect('/')
+    }
 })
 
 app.use(express.json());
@@ -40,8 +42,6 @@ app.use(express.json());
 app.put('/students/:rollNo', async (req, res) => {
     const rollNo = req.params.rollNo;
     const newData = req.body;
-
-    console.log(newData);
 
     try {
         const updatedStudent = await Student.findOneAndUpdate({ rollNo: rollNo }, newData, { new: true });
